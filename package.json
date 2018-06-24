@@ -1,0 +1,32 @@
+{
+  "name": "webgl",
+  "version": "0.0.0",
+  "main": "package.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "dev_watch": "webpack --config webpack.dev.js --watch",
+    "prod": "webpack --config webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "David  Coen",
+  "license": "Fair",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.6.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "q": "^1.5.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "description": ""
+}
